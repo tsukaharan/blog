@@ -1,8 +1,26 @@
-#baseurl = "http://replace-this-with-your-hugo-site.com/"
-#languageCode = "en-us"
-#title = "My New Hugo Site"
-baseurl = "http://tsukaharan.github.io/"
+baseurl = "https://tsukaharan.github.io/"
 languageCode = "ja"
-title = "tsukaharan blog"
+title = "masalog"
 canonifyurls = true
 theme = "beautifulhugo"
+
+
+[Params]
+  logo = "img/avatar-icon.png"
+  subtitle = "ゆるふわBizDeverの備忘録ブログ"
+
+[Author]
+  name = "masaru tsukahara"
+  email = "tsukaharama@gmail.com"
+  facebook = "tsukaharam"
+  github = "tsukaharan"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 2
